@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<syntaxRules>
+    <language name="Kotlin">
+        <keywords>fun,val,var,class,object,interface,enum,if,else,when,for,while,do,try,catch,finally,return,this,super,package,import,as,is,in</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="Java">
+        <keywords>public,private,protected,class,interface,extends,implements,static,final,void,int,float,double,boolean,char,if,else,switch,case,for,while,do,try,catch,finally,return,this,super,new</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="C++">
+        <keywords>int,float,double,char,bool,class,struct,if,else,switch,case,for,while,do,return,this,new,delete,namespace,using,public,private,protected,virtual,template,friend,operator</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="C">
+        <keywords>int,float,double,char,if,else,switch,case,for,while,do,return,struct,typedef,enum,union,const,static,extern,void,signed,unsigned,break,continue,goto,default</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="Python">
+        <keywords>False,None,True,and,as,assert,async,await,break,class,continue,def,del,elif,else,except,finally,for,from,global,if,import,in,is,lambda,nonlocal,not,or,pass,raise,return,try,while,with,yield</keywords>
+        <comment single="#" multiStart="&quot;&quot;&quot;" multiEnd="&quot;&quot;&quot;"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="JavaScript">
+        <keywords>abstract,arguments,await,boolean,break,byte,case,catch,char,class,const,continue,debugger,default,delete,do,double,else,enum,eval,export,extends,false,final,finally,float,for,function,goto,if,implements,import,in,instanceOf,int,interface,let,long,native,new,null,package,private,protected,public,return,short,static,super,switch,synchronized,this,throw,throws,transient,true,try,typeOf,var,void,volatile,while,with,yield</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="C#">
+        <keywords>abstract,as,base,bool,break,byte,case,catch,char,checked,class,const,continue,decimal,default,delegate,do,double,else,enum,event,explicit,extern,false,finally,fixed,float,for,foreach,goto,if,implicit,in,int,interface,internal,is,lock,long,namespace,new,null,object,operator,out,override,params,private,protected,public,readonly,ref,return,sbyte,sealed,short,sizeof,stackalloc,static,string,struct,switch,this,throw,true,try,typeof,uint,ulong,unchecked,unsafe,ushort,using,virtual,void,volatile,while</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="Go">
+        <keywords>break,case,const,continue,default,defer,else,fallthrough,for,func,go,goto,if,import,interface,map,package,range,return,select,struct,switch,type,var</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="`"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="Rust">
+        <keywords>as,break,const,continue,crate,else,enum,extern,false,fn,for,if,impl,in,let,loop,match,mod,move,mut,pub,ref,return,self,Self,static,struct,super,trait,true,type,unsafe,use,where,while</keywords>
+        <comment single="//" multiStart="/*!" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+
+    <language name="Swift">
+        <keywords>as,associatedtype,class,deinit,enum,extension,func,import,init,inout,internal,let,operator,private,protocol,public,rethrows,static,struct,subscript,typealias,var,break,case,catch,continue,default,defer,do,else,fallthrough,for,guard,if,in,is,repeat,return,throw,throws,try,while,nil,true,false</keywords>
+        <comment single="//" multiStart="/*" multiEnd="*/"/>
+        <stringDelimiters>
+            <delimiter value="&quot;"/>
+            <delimiter value="'"/>
+        </stringDelimiters>
+    </language>
+</syntaxRules>
